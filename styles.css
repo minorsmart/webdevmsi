@@ -1,26 +1,7 @@
-.title-bg {
-  padding: 200px;
-  background: url("titel.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.title-h1 {
-  color: MediumVioletRed ;
-  font-family: 'Lobster', cursive;
-  font-size: 140px;
-}
-
-.about-bg {
-  padding: 100px;
-  background-color: #ffffe6;
-  font-family: 'Raleway';
-  font-size: 18px;
-}
-
-.my-video {
-  background-color: honeydew;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+body {
+	font-family: arial;
+	background-color: pink;}
+	
+	h1{
+		color: blue;
+		}
