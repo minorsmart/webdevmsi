@@ -1,43 +1,7 @@
-.title-bg {
-  padding: 100px;
-  background: url("titel.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.title-h1 {
-  color: MediumVioletRed ;
-  font-family: 'Lobster', cursive;
-  font-size: 120px;
-  transition: 0.5s;
-  width: 100%
-}
-
-.about-bg {
-  padding: 70px;
-  background-color: #ffffe6;
-}
-
-.about-bg p{
-  background-color: #ffffe6;
-  font-family: 'Raleway';
-  font-size: 18px;
-}
-
-.smart-btn{
-  padding:40px;
-}
-
-.smart-chart {
-  background-color: #CCCCFF;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.my-video {
-  background-color: honeydew;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+body {
+	font-family: arial;
+	background-color: pink;}
+	
+	h1{
+		color: blue;
+		}
