@@ -5,7 +5,9 @@
     <title>Hello World</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway|Abril+Fatface|Chango|Gloria+Hallelujah|Lobster|Pacifico" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
   </head>
   <body>
 
@@ -48,12 +50,29 @@
       <iframe width="904.5180763228826" height="515" src="https://www.youtube.com/embed/ljOoGyCso8s" frameborder="0" allow="autoplay; encrypted-media " allowfullscreen></iframe>
     </div>
 
-
-
-
+    <div class="container-fluid my-contact">
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, World!</h1>
+        <p class="lead">Wil je meer over me weten? Neem dan contact met me op.</p>
+        <hr class="my-4">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="inputEmail">Vul je mailadres in</label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Jouw mailadres">
+            <small id="emailHelp" class="form-text text-muted">Wij delen jouw data NOOIT met derden.</small>
+          </div>
+          <div class="form-group">
+            <label for="textMessage">Laat een bericht achter</label>
+            <textarea class="form-control" id="textMessage" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submitMessage">Verstuur</button>
+        </form>
+      </div>
+    </div>
 
     <!-- Scripts -->
     <script src="scripts.js"></script>
+    <script src="firebase.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

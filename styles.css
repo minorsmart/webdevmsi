@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px
 }
 
 .my-video {
@@ -40,4 +41,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px
+}
+
+.my-contact {
+  background-color: #ada397;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px
 }
