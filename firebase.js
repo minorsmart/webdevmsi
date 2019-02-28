@@ -1,6 +1,6 @@
 // Initialize Firebase
 var config = {
-apiKey: "AIzaSyAehAyrs62Vpdjr8fdNa8qappI821bqu-A",
+apiKey: "<YOUR KEY HERE>",
 authDomain: "smart-start-10a9a.firebaseapp.com",
 databaseURL: "https://smart-start-10a9a.firebaseio.com",
 projectId: "smart-start-10a9a",
